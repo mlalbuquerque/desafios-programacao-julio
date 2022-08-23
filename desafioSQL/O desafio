@@ -1,0 +1,30 @@
+Criar 3 tabelas
+- Pais
+    id (numero e chave primaria)
+    nome (texto)
+    sigla (3 caracteres)
+
+- Estado
+    id (numero e chave primaria)
+    nome (texto)
+    sigla (2 caracteres)
+    id_pais (numero)
+    
+- Cidade
+    id (numero e chave primaria)
+    nome (texto)
+    id_estado (numero)
+
+Parte 2:
+
+- Inserir ao menos 2 paises
+- Inserir os 27 estados
+- Inserir 2 municipios por estado
+
+Parte 3:
+- Tirar um relatorio (uma consulta SELECT) com os seguintes campos:
+    nome_pais
+    sigla_pais
+    nome_estado
+    sigla_estado
+    nome_cidade
